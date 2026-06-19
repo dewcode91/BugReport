@@ -1,4 +1,4 @@
-# BugReport 🚀
+# BugReport-v1.0
 
 A highly polished, professional Single Page Application designed for SecOps professionals and bug hunters to draft, build, refine, and catalogue security vulnerability reports in clean, compliance-grade formats.
 
