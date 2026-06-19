@@ -4,6 +4,8 @@ A highly polished, professional Single Page Application designed for SecOps prof
 
 This project delivers a responsive client dashboard with interactive Markdown sidebars, category tracking, severity selectors, sync backups, and template headers. 
 
+![myworkspace](localhost_8080.png)
+
 ---
 
 ## 🐋 Docker Installation & Setup
