@@ -1,0 +1,156 @@
+@import "tailwindcss";
+
+/* HTML custom styling for Professional Polish bug bounty preview */
+.markdown-preview {
+  color: #334155; /* slate-700 */
+  font-size: 0.925rem;
+}
+
+.markdown-preview h1 {
+  font-size: 1.625rem; /* ~26px */
+  font-weight: 700;
+  color: #0f172a; /* slate-900 */
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e2e8f0; /* slate-200 */
+}
+
+.markdown-preview h2 {
+  font-size: 1.25rem; /* ~20px */
+  font-weight: 600;
+  color: #1e293b; /* slate-800 */
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid #f1f5f9; /* slate-100 */
+}
+
+.markdown-preview h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.markdown-preview p {
+  line-height: 1.625;
+  margin-top: 0px;
+  margin-bottom: 1rem;
+  color: #475569; /* slate-600 */
+}
+
+.markdown-preview a {
+  color: #2563eb; /* blue-600 */
+  text-decoration: underline;
+  transition: color 0.15s ease-in-out;
+}
+
+.markdown-preview a:hover {
+  color: #1d4ed8; /* blue-700 */
+}
+
+.markdown-preview blockquote {
+  padding-left: 1rem;
+  border-left: 4px solid #3b82f6; /* blue-500 */
+  color: #64748b; /* slate-500 */
+  font-style: italic;
+  margin: 1rem 0;
+  background-color: #f8fafc; /* slate-50 */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0 4px 4px 0;
+}
+
+.markdown-preview ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+  color: #475569;
+}
+
+.markdown-preview ol {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+  color: #475569;
+}
+
+.markdown-preview li {
+  margin-bottom: 0.25rem;
+  line-height: 1.5;
+}
+
+.markdown-preview pre {
+  background-color: #f8fafc; /* slate-50 */
+  border: 1px solid #e2e8f0; /* slate-200 */
+  border-radius: 0.375rem;
+  padding: 1rem;
+  overflow-x: auto;
+  margin: 1rem 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.85rem;
+  color: #0f172a; /* slate-900 */
+}
+
+.markdown-preview code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.85rem;
+  background-color: #f1f5f9; /* slate-100 */
+  color: #0f172a; /* slate-900 */
+  padding: 0.125rem 0.25rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.25rem;
+}
+
+.markdown-preview pre code {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  color: inherit;
+}
+
+.markdown-preview table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.875rem;
+}
+
+.markdown-preview th {
+  background-color: #f1f5f9;
+  color: #0f172a;
+  font-weight: 600;
+  text-align: left;
+  padding: 0.625rem 0.875rem;
+  border: 1px solid #cbd5e1;
+}
+
+.markdown-preview td {
+  padding: 0.625rem 0.875rem;
+  border: 1px solid #e2e8f0;
+  color: #475569;
+}
+
+.markdown-preview tr:nth-child(even) td {
+  background-color: #f8fafc;
+}
+
+.markdown-preview hr {
+  border: 0;
+  border-top: 1px solid #e2e8f0;
+  margin: 1.5rem 0;
+}
+
+/* Custom animated background elements */
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.05; }
+  50% { opacity: 0.15; }
+}
+
+.pulse-glow {
+  animation: pulseGlow 8s infinite ease-in-out;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "BugReport",
+  "description": "An in-house utility for drafting and managing bug bounty reports, with a real-time markdown editor, live preview, and automatic template importing from external repositories.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

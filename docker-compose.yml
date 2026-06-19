@@ -1,0 +1,12 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: bugreport:latest
+    container_name: bugreport
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
