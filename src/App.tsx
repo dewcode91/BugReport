@@ -47,6 +47,7 @@ import {
   FALLBACK_TEMPLATES 
 } from './types';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 // Configure marked options
 marked.setOptions({
@@ -1169,6 +1170,7 @@ export default function App() {
       </AnimatePresence>
 
       <Analytics />
+      <SpeedInsights />
     </div>
   );
 }
