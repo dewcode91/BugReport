@@ -46,6 +46,7 @@ import {
   GithubTemplate, 
   FALLBACK_TEMPLATES 
 } from './types';
+import { Analytics } from '@vercel/analytics/react';
 
 // Configure marked options
 marked.setOptions({
@@ -1167,6 +1168,7 @@ export default function App() {
         )}
       </AnimatePresence>
 
+      <Analytics />
     </div>
   );
 }
