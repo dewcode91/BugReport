@@ -169,7 +169,7 @@ export default function App() {
     setSyncStatus('syncing');
     setSyncError(null);
     try {
-      const res = await fetch('https://api.github.com/repos/secops-templates/report-templates/contents');
+      const res = await fetch('https://api.github.com/repos/dewcode91/report-templates/contents');
       if (!res.ok) {
         throw new Error(`GitHub API returned status ${res.status}`);
       }
